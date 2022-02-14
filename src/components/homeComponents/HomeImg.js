@@ -1,10 +1,10 @@
 import React from "react";
-import jonathanphoto3 from "../../Images/jonathanphoto3.jpeg";
+import jonathanphoto1 from "../../images/jonathanphoto1.jpeg";
 
 const HomeImg = () => {
   return (
     <div className="photoCont">
-      <img className="homePhoto" alt="DevPhoto" src={jonathanphoto3} />
+      <img className="homePhoto" alt="DevPhoto" src={jonathanphoto1} />
     </div>
   );
 };

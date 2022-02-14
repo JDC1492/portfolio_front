@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeContainer from "./containers/HomeContainer";
 import Projects from "./components/projectComponents/Projects";
 import AboutContainer from "./containers/AboutContainer";
@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Switch>
+        <Routes>
           {/* specifying with the 'exact' keyword since other routes share part of this URL */}
-          <Route exact path="/" component={HomeContainer} />
-          <Route exact path="/projects" component={Projects} />
-          <Route path="/about" component={AboutContainer} />
-        </Switch>
+          <Route exact path="/" element={<HomeContainer />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/about" element={<AboutContainer />} />
+        </Routes>
         <NavBarContainer />
       </Router>
     </div>
