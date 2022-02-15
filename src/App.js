@@ -4,7 +4,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeContainer from "./containers/HomeContainer";
 import Projects from "./components/projectComponents/Projects";
-import AboutContainer from "./containers/AboutContainer";
+// import AboutContainer from "./containers/AboutContainer";
 import NavBarContainer from "./containers/NavBarContainer";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           {/* specifying with the 'exact' keyword since other routes share part of this URL */}
           <Route exact path="/" element={<HomeContainer />} />
           <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/about" element={<AboutContainer />} />
+          {/* <Route exact path="/about" element={<AboutContainer />} /> */}
         </Routes>
         <NavBarContainer />
       </Router>

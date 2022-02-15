@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const ProjectsLink = () => {
   return (
-    <div>
+    <>
       <NavLink to="/projects">My Projects</NavLink>
-    </div>
+    </>
   );
 };
 

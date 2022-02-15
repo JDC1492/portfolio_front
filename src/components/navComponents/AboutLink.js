@@ -1,12 +1,8 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+// import React from "react";
+// import { NavLink } from "react-router-dom";
 
-const AboutLink = () => {
-  return (
-    <div>
-      <NavLink to="/about">About</NavLink>
-    </div>
-  );
-};
+// const AboutLink = () => {
+//   return <>{/* <NavLink to="/about">About</NavLink> */}</>;
+// };
 
-export default AboutLink;
+// export default AboutLink;
