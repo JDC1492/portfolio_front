@@ -11,10 +11,10 @@ class HomeContainer extends Component {
       <div>
         <HomeHeader />
         <div id="flex-div">
-          <div id="img-right">
+          <div id="img-left">
             <HomeImg />
           </div>
-          <div id="left-list">
+          <div id="right-list">
             <HomeList />
           </div>
         </div>

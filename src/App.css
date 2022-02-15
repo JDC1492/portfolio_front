@@ -43,20 +43,20 @@
   margin: 21px;
 }
 
-#left-list {
-  /* margin: auto; */
-  padding-top: 15%;
-}
+/* left section for photo */
 
-#img-right {
-  /* margin: auto; */
+#img-left {
 }
-
 .homePhoto {
   height: 500px;
   width: 390px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#right-list {
+  /* margin: auto; */
+  padding-top: 10%;
 }
 
 .homeList {
@@ -65,8 +65,11 @@
   /* float: left; */
   text-align: center;
 }
-.navBar {
-  border-top: 50px;
-  padding-left: 5%;
-  /* text-align: match-parent; */
+.navBar > p {
+  display: inline;
+  margin: 8%;
+}
+
+.gamer {
+  /* font-family: monaco; */
 }
