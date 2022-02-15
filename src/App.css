@@ -40,36 +40,41 @@
 #flex-div {
   display: flex;
   justify-content: center;
-  margin: 21px;
+  flex-direction: row-gap;
 }
 
 /* left section for photo */
 
 #img-left {
+  margin-right: 75px;
+  background-color: #1d2324;
+  width: 100%;
 }
 .homePhoto {
   height: 500px;
   width: 390px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
+/* right section for list */
 #right-list {
-  /* margin: auto; */
   padding-top: 10%;
+  background-color: black;
+  width: 100%;
 }
 
 .homeList {
   list-style-type: none;
   padding: 5px;
+  color: white;
   /* float: left; */
-  text-align: center;
+  text-align: left;
 }
 .navBar > p {
   display: inline;
   margin: 8%;
 }
 
-.gamer {
-  /* font-family: monaco; */
+.gamer,
+h1 {
+  font-family: "Dosis", sans-serif;
 }
