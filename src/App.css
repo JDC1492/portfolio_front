@@ -37,20 +37,21 @@
   }
 }
 
+/* CUSTOM  */
+
 #flex-div {
   display: flex;
   justify-content: center;
-  flex-direction: row-gap;
 }
 
 /* left section for photo */
 
 #img-left {
-  margin-right: 75px;
   background-color: #1d2324;
   width: 100%;
 }
 .homePhoto {
+  float: right;
   height: 500px;
   width: 390px;
 }
