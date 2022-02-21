@@ -79,3 +79,11 @@
 h1 {
   font-family: "Dosis", sans-serif;
 }
+
+li:hover {
+  color: #61dafb;
+}
+
+div > p {
+  display: hidden;
+}
