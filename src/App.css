@@ -73,6 +73,11 @@
   /* float: left; */
   text-align: left;
 }
+
+.homeList:hover {
+  color: #61dafb;
+}
+
 .navBar > p {
   display: inline;
   margin: 8%;
@@ -81,10 +86,6 @@
 .gamer,
 h1 {
   font-family: "Dosis", sans-serif;
-}
-
-li:hover {
-  color: #61dafb;
 }
 
 div > p {
